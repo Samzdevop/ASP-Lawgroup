@@ -10,6 +10,7 @@ const practiceAreas = [
   "Insurance Non-Compliance",
   "Civil Litigation",
   "Business Formations",
+  "Eviction Housing tenant protection"
 ];
 
 export default function PracticeArea() {

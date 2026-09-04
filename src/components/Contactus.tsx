@@ -80,11 +80,22 @@ export default function Contactus() {
 
       <div className="grid md:grid-cols-2 gap-16 relative z-10">
            <div className="space-y-2">
+            <h2 className="text-lg text-[#fbaf19]">California USA</h2>
+              <div className="flex items-start gap-6">
+                <p className="min-w-[180px]">8383 Beverly Hills blvd #800 California USA</p>
+                {/* <p>P 630.819.8344</p> */}
+              </div>
             <h2 className="text-lg text-[#fbaf19]">Canada</h2>
               <div className="flex items-start gap-6">
                 <p className="min-w-[180px]">3525 Platinum Dr. Mississauga ON L5M 2R9</p>
                 {/* <p>P 630.819.8344</p> */}
               </div>
+            <h2 className="text-lg text-[#fbaf19]">Email</h2>
+              <div className="flex items-start gap-6">
+                <p className="min-w-[180px]">info@asp-lawgroup.org</p>
+                {/* <p>P 630.819.8344</p> */}
+              </div>
+              
              <div className="pt-4">
                 <img
                     src={cert}
